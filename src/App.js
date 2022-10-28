@@ -1,25 +1,11 @@
 import Layout from './Componets/Layout';
 import React from 'react';
 import './App.css';
-import Home from './Home';
-import Users from './users';
-import Support from './support';
+import Home from './Componets/Home';
+import Users from './Componets/users';
+import Support from './Componets/support';
 import { Routes, Route } from 'react-router-dom';
-import { Contact, About } from './support';
 import Error from './Componets/Error';
-import { Link } from 'react-router-dom';
-// import { ErrorBoundary } from 'react-error-boundary';
-// function fallBack({error,resetError}) {
-//   return (
-//     <div role='alert'>
-//     <h3>Something went wrong!</h3>
-//     <summary>{error.messaged}</summary>
-//     <button onClick={resetError}>Reload</button>
-//     </div>
-//   )
-// }
-// g
-
 class ErrorBoundary extends React.Component {
   constructor(props) {
     super(props);
@@ -54,7 +40,6 @@ function App() {
       <Route path='*' element={<Error />} />
     </Route>
    </Routes>
-  );
     </ErrorBoundary>
   )
   }

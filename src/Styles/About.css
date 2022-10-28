@@ -1,0 +1,13 @@
+span p{
+    display: inline;
+    margin: 5%;
+  }
+  span{
+    display: block;
+    width: 300px;
+    margin:2% auto;
+  }
+  #info {
+    width: 80%;
+    margin: auto;
+  }

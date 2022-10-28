@@ -1,7 +1,6 @@
-import Nav from "./Nav"
-import "./Styles/Home.css"
-import Mockup from './Images/mockups.svg'
-import Logo from'./Images/logo.svg'
+
+import "../Styles/Home.css"
+import Mockup from '../Images/mockups.svg'
 
 
 function Home() {
