@@ -1,0 +1,22 @@
+.error{
+    margin: auto;
+    width: 80%;
+
+}
+h1,h2{
+    font-size: 50px;
+    text-align: center;
+    color: var(--pink);
+}
+h2{
+    font-size: 25px;
+}
+p{
+    text-align: center;
+    color: var(--blue);
+    font-weight: 500;
+}
+:root{
+    --pink:hsl(322,100%,66%);
+    --blue:hsl(208, 11%, 55%);
+}

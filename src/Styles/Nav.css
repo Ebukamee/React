@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap'); 
+
+.links {
+    margin-left: 30%;
+    width: 60%;
+}
+.nav{
+    display: flex;
+    margin:15px  auto;
+    width: 80%;
+    flex-direction: row;
+}
+.link {
+    margin: auto 5%;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+.logo {
+    width: 100px;
+    height: 20px;
+}

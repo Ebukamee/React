@@ -1,0 +1,38 @@
+#flex{
+    display: flex;
+    margin: auto;
+    width: 75%;
+    flex-direction: row;
+    margin-top:50px;
+}
+#mi{
+    width: 40%;
+    margin: auto;
+}
+#hero{
+    width: 40%;
+    margin: auto;
+}
+
+:root{
+  --pink:hsl(322,100%,66%);
+  --pcyan:hsl(193, 100%, 96%);
+  --cyan:hsl(192, 100%, 9%);
+  --blue:hsl(208, 11%, 55%);
+}
+h1.h1 {
+  color: var(--cyan);
+  font-size: 30px;
+}
+@media(max-width:700px){
+    #flex{
+      display: flex;
+      margin-right: 10%;
+      width: 100%;
+      flex-direction: column-reverse;
+      margin-top: 0;
+    }
+    #flex div,#flex img{
+      width: 80%;
+    }
+}
