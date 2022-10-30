@@ -37,8 +37,8 @@ function App() {
       <Route index element={<Home />} />
       <Route path='/users' element={<Users />} />
       <Route path='/support' element={<Support />} />
-      <Route path='*' element={<Error />} />
     </Route>
+    <Route path='*' element={<Error />} />
    </Routes>
     </ErrorBoundary>
   )

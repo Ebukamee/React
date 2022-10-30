@@ -1,0 +1,31 @@
+.user-info{
+    background: var(--pcyan);
+    max-width: 200px;
+    max-width: 80%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+button{
+    padding: 5px;
+    background-color: var(--pink);
+    border-color: var(--pink);
+    margin: 2px;
+}
+.user-info img{
+    border-radius: 50%;
+    margin: auto 40%;
+    border-color: var(pink);
+}
+.button {
+    width: 80%;
+    margin: 50px 20%;
+    box-sizing: border-box;
+    padding-left: 12%;
+}
+:root{
+    --pink:hsl(322,100%,66%);
+    --pcyan:hsl(193, 100%, 96%);
+    --cyan:hsl(192, 100%, 9%);
+    --blue:hsl(208, 11%, 55%);
+  }

@@ -1,0 +1,52 @@
+.load {
+    width: 20px;
+    height: 5px;
+    background-color: var(--pink);
+    display: inline-block;
+    margin: auto 5px;
+}
+.load1{
+    animation-name: animate1;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+.move{
+    animation-name: animate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    position: relative;
+}
+:root{
+    --pink:hsl(322,100%,66%);
+    --pcyan:hsl(193, 100%, 96%);
+    --cyan:hsl(192, 100%, 9%);
+    --blue:hsl(208, 11%, 55%);
+  }
+  .button{
+    width: 90%;
+    margin: auto;
+  }
+@keyframes animate {
+    from {
+        left: 20%;
+    }
+
+    to {
+        left: 80%;
+    }
+    
+}
+@keyframes animate1 {
+    from {
+        color: var(--pink);
+        font-size: 30px;
+    }
+
+    to {
+        color: var(--cyan);
+        font-size: 35px;
+    }
+    
+}
